@@ -1,0 +1,108 @@
+body {
+	padding: 0;
+	margin: 0;
+	background-image: url(img/bg.jpg);	
+	background-size: cover;
+	font-family: 'Orbitron', sans-serif;
+}
+
+.overlay {
+	position: absolute;
+	top: 0;
+	width: 100%;
+	height: 100%;
+	background-color: rgba(0, 0, 0, 0.3);
+}
+
+.box {
+	position: absolute;
+	width: 400px;
+	background-color: white;
+	top: 50%;
+	left: 50%;
+	transform: translate(-50%, -50%);
+	border-radius: 15px;
+	box-shadow: 0px 10px 10px 10px rgb(0, 0, 0, .2);
+}
+
+.header {
+	background-image: url(img/bg.jpg);
+	background-size: cover;
+	padding: 100px 30px;
+	color: #c7e008;
+	border-radius: 15px 15px 0px 0px;
+}
+.header h2{
+	text-align: center;
+}
+
+.header p {
+	font-size: small;
+	text-align: center;
+	color: #c7e008;
+	text-shadow: 1px 1px 3px #c7e008;
+}
+
+.login-area {
+	text-align: center;
+	padding: 50px 50px 30px 50px;
+}
+
+.username,
+.password {
+	width: 100%;
+	text-align: center;
+	padding: 13px 0px;
+	border-radius: 20px;
+	outline: none;
+	border: none;
+	color: #c7e008;
+	background-color: #0f4b10;
+	margin-bottom: 15px;
+	transform: ,5s;
+}
+
+.username::placeholder,
+.password::placeholder {
+    color: #8b9c05;
+}
+
+.username:focus,
+.password:focus {
+	background-color: #0c3f0d;
+}
+
+.submit {
+	width: 150px;
+	padding: 10px;
+	background-color: #0f4b10;
+	border-radius: 10px;
+	font-weight: bold;
+	color: #c7e008;
+	border: none;
+	outline: none;
+	margin: 10px;
+	transition: .2s;
+	cursor: pointer;
+}
+
+.submit:hover {
+	background-color: #0c3f0d;
+}
+
+a {
+	display: block;
+	font-size: x-small;
+	text-decoration: none;
+	color:  #8b9c05;
+	margin-top: 10px;
+}
+
+footer {
+	text-align: center;
+	margin-top: 700px;
+}
+
+footer p {
+	color: white;
+}
